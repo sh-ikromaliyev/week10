@@ -30,6 +30,16 @@ int problem4(double array[], int size){
     return a;
 }
 
+bool strictlyEqual(const int list1[], const int list2[],int size){
+    for (int i = 0; i < size; i++){
+        if (list1[i] != list2[i]){
+            return false;
+        }
+        
+    }
+    return true;
+}
+
 int main() {
     //problem 1
     // int n1;
@@ -62,5 +72,8 @@ int main() {
     // }
     // cout << problem3(n3, array3) << endl;
 
+
+    // Problem 5
+    
     return 0;
 }
