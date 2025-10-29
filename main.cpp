@@ -20,6 +20,16 @@ int problem3(int n3, int array3[]) {
     return a;
 }
 
+int problem4(double array[], int size){
+    int a = 0;
+    for (int i = 1; i < size; i++){
+        if (array[a] < array[i]){
+            a = i;
+        }
+    }
+    return a;
+}
+
 int main() {
     //problem 1
     // int n1;
