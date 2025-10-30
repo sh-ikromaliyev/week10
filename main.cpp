@@ -162,9 +162,41 @@ int main() {
 
     // Problem 11
 
-    int target = 9;
-    int nums[] = {2,7,11,15};
+    // int target = 16;
+    // int nums[] = {2,7,11,15,1};
+    // int numsSize = sizeof(nums)/sizeof(nums[0]);
+    // for (int i = 0; i < numsSize; i++) {
+    //     for (int j = i+1; j < numsSize; j++) {
+    //         if ((nums[i] + nums[j]) == target) {
+    //             cout << i << " " << j << endl;
+    //             return 0;
+    //             }
+    //
+    //         }
+    //     }
 
+    // Problem 12
+    // int n12;
+    // cin >> n12;
+    // int array12[n12];
+    // for (int i = 0; i < n12; i++) {
+    //     cin >> array12[i];
+    // }
+    // int diff;
+    // if (array12[0] != array12[1] && array12[0] != array12[2]) {
+    //     diff = 1;
+    // } else if (array12[1] != array12[2] && array12[1] != array12[0]) {
+    //     diff = 2;
+    // } else {
+    //     for (int i = 2; i < n12; i++) {
+    //         if (array12[i] != array12[0]) {
+    //             diff = i +1;
+    //             break;
+    //         }
+    //     }
+
+    // }
+    // cout << diff << " ";
 
 
     return 0;
